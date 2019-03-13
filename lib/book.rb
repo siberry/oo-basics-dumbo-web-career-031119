@@ -3,6 +3,9 @@ class Book
   
   def initialize(title)
     @title = title
+    :author,
+    :page_count,
+    :genre
   end
   
 end
